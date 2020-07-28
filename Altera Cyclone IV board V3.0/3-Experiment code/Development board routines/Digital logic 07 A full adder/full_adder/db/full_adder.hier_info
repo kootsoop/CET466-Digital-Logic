@@ -1,0 +1,20 @@
+|full_adder
+A => A.IN1
+B => B.IN1
+Ci => Ci.IN1
+
+
+|full_adder|half_adder:half_adder_0
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+
+
+|full_adder|half_adder:half_adder_1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+
+

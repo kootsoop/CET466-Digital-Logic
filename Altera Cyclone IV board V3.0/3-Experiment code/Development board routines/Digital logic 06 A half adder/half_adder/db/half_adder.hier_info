@@ -1,0 +1,7 @@
+|half_adder
+A => S.IN0
+A => CO.IN0
+B => S.IN1
+B => CO.IN1
+
+

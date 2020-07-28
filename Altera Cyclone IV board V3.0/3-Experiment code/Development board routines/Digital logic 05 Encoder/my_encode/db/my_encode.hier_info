@@ -1,0 +1,9 @@
+|my_encode
+I[0] => ~NO_FANOUT~
+I[1] => Decoder1.IN2
+I[2] => Decoder0.IN1
+I[2] => Decoder1.IN1
+I[3] => Decoder0.IN0
+I[3] => Decoder1.IN0
+
+

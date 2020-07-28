@@ -1,0 +1,5 @@
+|my_nand
+a => c.IN0
+b => c.IN1
+
+
