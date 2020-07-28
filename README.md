@@ -27,6 +27,8 @@ There are some other GitHub repositories around that reference the RZ EasyFPGA b
 
 [To download Quartus Prime v20.1, go to the Intel site and download it. Be warned: it's LARGE.](https://fpgasoftware.intel.com/20.1/?edition=lite)
 
+To clone this repository on Windows, you need to have [long file names enabled](https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows) by running `git config --system core.longpaths true`. Otherwise `git` will give an error about `Clone succeeded but checkout failed.`
+
 ## Some Videos
 
  There are several videos on YouTube using the board, though most are not in English:
