@@ -6,6 +6,10 @@ The course will be using the RZ-EasyFPGA board which is a nice, inexpensive boar
 
 ![Picture of the board.](./RZ-EasyFPGA.jpg)
 
+This image shows some of the features of the board.
+
+![Features on the board.](./aletra_fpga_ep4ce6e22c8n.jpg)
+
 The pinouts are shown below.
 
 ![Pinouts of the board.](./fpga_pin_map.jpg)
