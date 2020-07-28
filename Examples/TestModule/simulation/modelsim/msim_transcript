@@ -1,0 +1,64 @@
+# Reading pref.tcl
+# do VGA_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/koots/Downloads/VGA {C:/Users/koots/Downloads/VGA/VGA.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:27:42 on Jul 27,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/koots/Downloads/VGA" C:/Users/koots/Downloads/VGA/VGA.v 
+# -- Compiling module VGA
+# ** Warning: C:/Users/koots/Downloads/VGA/VGA.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	VGA
+# End time: 14:27:44 on Jul 27,2020, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# 
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+wave create -pattern none -portmode input -language vlog /VGA/clock
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+# VGA
+wave create -pattern none -portmode input -language vlog -range 1 0 /VGA/switch
+# VGA
+wave create -pattern none -portmode output -language vlog -range 2 0 /VGA/disp_RGB
+# VGA
+wave create -pattern none -portmode output -language vlog /VGA/hsync
+# VGA
+wave create -pattern none -portmode output -language vlog /VGA/vsync
+# VGA
+vlog -reportprogress 300 -work work C:/Users/koots/Downloads/VGA/VGA.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:28:53 on Jul 27,2020
+# vlog -reportprogress 300 -work work C:/Users/koots/Downloads/VGA/VGA.v 
+# -- Compiling module VGA
+# ** Warning: C:/Users/koots/Downloads/VGA/VGA.v(79): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	VGA
+# End time: 14:28:53 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -gui -l msim_transcript work.VGA
+# vsim -gui -l msim_transcript work.VGA 
+# Start time: 14:29:26 on Jul 27,2020
+# Loading work.VGA
+run -all
+run -all
+# Break key hit
+# Break key hit
+run -all
+run
+# Break key hit
+step -over
+# Nothing left to do.
+step -over
+# Nothing left to do.
+# End time: 14:32:01 on Jul 27,2020, Elapsed time: 0:02:35
+# Errors: 0, Warnings: 0

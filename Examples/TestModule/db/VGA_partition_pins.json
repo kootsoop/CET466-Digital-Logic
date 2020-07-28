@@ -1,0 +1,117 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "disp_RGB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "disp_RGB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "disp_RGB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hsync",
+					"strict" : false
+				},
+				{
+					"name" : "vsync",
+					"strict" : false
+				},
+				{
+					"name" : "leds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[3]",
+					"strict" : false
+				},
+				{
+					"name" : "beep",
+					"strict" : false
+				},
+				{
+					"name" : "digit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "digit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "digit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "digit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "digit[4]",
+					"strict" : false
+				},
+				{
+					"name" : "digit[5]",
+					"strict" : false
+				},
+				{
+					"name" : "digit[6]",
+					"strict" : false
+				},
+				{
+					"name" : "digit[7]",
+					"strict" : false
+				},
+				{
+					"name" : "number[0]",
+					"strict" : false
+				},
+				{
+					"name" : "number[1]",
+					"strict" : false
+				},
+				{
+					"name" : "number[2]",
+					"strict" : false
+				},
+				{
+					"name" : "number[3]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[3]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[2]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[0]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

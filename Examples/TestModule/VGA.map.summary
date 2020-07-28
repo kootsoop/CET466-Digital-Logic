@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Jul 28 13:21:24 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : VGA
+Top-level Entity Name : VGA
+Family : Cyclone IV E
+Total logic elements : 130
+    Total combinational functions : 130
+    Dedicated logic registers : 58
+Total registers : 58
+Total pins : 27
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
