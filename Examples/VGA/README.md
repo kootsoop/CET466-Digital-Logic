@@ -2,7 +2,7 @@
 
 The video below shows the VGA sample code working on the board.  
 
-![Video of VGA code](RZ-EasyFPGA-VGA-Demo.mov)
+Download the [video of VGA code running on the board here.](RZ-EasyFPGA-VGA-Demo.mov)
 
 The onboard VGA output only has 1 bit per color, so there are only a total of eight colors available.
 
