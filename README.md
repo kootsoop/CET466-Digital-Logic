@@ -35,6 +35,8 @@ To clone this repository on Windows, you need to have [long file names enabled](
 
 Some more information, including the marked up image showing the board features above is available from [here](http://piswords.com/ep4ce6e22c8n.html).
 
+The [NAND2Tetris text book](https://www.nand2tetris.org/) was the inspiration [for this repository](https://gitlab.com/x653/nand2tetris-fpga/)
+
 ## Some Videos
 
  There are several videos on YouTube using the board, though most are not in English:
