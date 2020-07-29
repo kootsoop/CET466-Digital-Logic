@@ -1,5 +1,5 @@
 Fitter report for VGA
-Tue Jul 28 13:21:33 2020
+Tue Jul 28 21:24:39 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Tue Jul 28 13:21:33 2020       ;
+; Fitter Status                      ; Successful - Tue Jul 28 21:24:39 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; VGA                                         ;
 ; Top-level Entity Name              ; VGA                                         ;
@@ -160,7 +160,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.8%      ;
+;     Processor 2            ;   1.0%      ;
 +----------------------------+-------------+
 
 
@@ -202,7 +202,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/koots/Downloads/VGA/VGA.pin.
+The pin-out file can be found in C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.pin.
 
 
 +--------------------------------------------------------------------+
@@ -993,16 +993,16 @@ Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node clock~input (placed in PIN 23 (CLK1, DIFFCLK_0n)) File: C:/Users/koots/Downloads/VGA/VGA.v Line: 19
+Info (176353): Automatically promoted node clock~input (placed in PIN 23 (CLK1, DIFFCLK_0n)) File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 19
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G2
-Info (176353): Automatically promoted node vga_clk  File: C:/Users/koots/Downloads/VGA/VGA.v Line: 48
+Info (176353): Automatically promoted node vga_clk  File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 48
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node vga_clk~0 File: C:/Users/koots/Downloads/VGA/VGA.v Line: 48
+        Info (176357): Destination node vga_clk~0 File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 48
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:05
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1014,30 +1014,30 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X23_Y12 to location X34_Y24
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.27 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
+Info (11888): Total time spent on timing analysis during the Fitter is 0.47 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (169177): 5 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing Cyclone IV E Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin switch[3] uses I/O standard 3.3-V LVTTL at 91 File: C:/Users/koots/Downloads/VGA/VGA.v Line: 20
-    Info (169178): Pin switch[2] uses I/O standard 3.3-V LVTTL at 90 File: C:/Users/koots/Downloads/VGA/VGA.v Line: 20
-    Info (169178): Pin switch[0] uses I/O standard 3.3-V LVTTL at 88 File: C:/Users/koots/Downloads/VGA/VGA.v Line: 20
-    Info (169178): Pin switch[1] uses I/O standard 3.3-V LVTTL at 89 File: C:/Users/koots/Downloads/VGA/VGA.v Line: 20
-    Info (169178): Pin clock uses I/O standard 3.3-V LVTTL at 23 File: C:/Users/koots/Downloads/VGA/VGA.v Line: 19
-Info (144001): Generated suppressed messages file C:/Users/koots/Downloads/VGA/VGA.fit.smsg
+    Info (169178): Pin switch[3] uses I/O standard 3.3-V LVTTL at 91 File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 20
+    Info (169178): Pin switch[2] uses I/O standard 3.3-V LVTTL at 90 File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 20
+    Info (169178): Pin switch[0] uses I/O standard 3.3-V LVTTL at 88 File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 20
+    Info (169178): Pin switch[1] uses I/O standard 3.3-V LVTTL at 89 File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 20
+    Info (169178): Pin clock uses I/O standard 3.3-V LVTTL at 23 File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 19
+Info (144001): Generated suppressed messages file C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 5235 megabytes
-    Info: Processing ended: Tue Jul 28 13:21:34 2020
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:09
+    Info: Peak virtual memory: 5234 megabytes
+    Info: Processing ended: Tue Jul 28 21:24:40 2020
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:10
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/koots/Downloads/VGA/VGA.fit.smsg.
+The suppressed messages can be found in C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.fit.smsg.
 
 

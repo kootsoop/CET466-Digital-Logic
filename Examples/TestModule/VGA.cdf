@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE6E22) Path("C:/Users/koots/Downloads/VGA/") File("VGA.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE6E22) Path("C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/") File("VGA.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

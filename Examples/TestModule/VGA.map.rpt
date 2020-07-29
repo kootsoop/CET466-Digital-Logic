@@ -1,5 +1,5 @@
 Analysis & Synthesis report for VGA
-Tue Jul 28 13:21:24 2020
+Tue Jul 28 21:24:10 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -47,7 +47,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Jul 28 13:21:24 2020       ;
+; Analysis & Synthesis Status        ; Successful - Tue Jul 28 21:24:09 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; VGA                                         ;
 ; Top-level Entity Name              ; VGA                                         ;
@@ -166,13 +166,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                     ;
-+----------------------------------+-----------------+------------------------+------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path       ; Library ;
-+----------------------------------+-----------------+------------------------+------------------------------------+---------+
-; VGA.v                            ; yes             ; User Verilog HDL File  ; C:/Users/koots/Downloads/VGA/VGA.v ;         ;
-+----------------------------------+-----------------+------------------------+------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                          ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                            ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
+; VGA.v                            ; yes             ; User Verilog HDL File  ; C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------+
@@ -298,7 +298,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -308,22 +308,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Jul 28 13:21:04 2020
+    Info: Processing started: Tue Jul 28 21:23:40 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off VGA -c VGA
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file vga.v
-    Info (12023): Found entity 1: VGA File: C:/Users/koots/Downloads/VGA/VGA.v Line: 8
-Critical Warning (10226): Verilog HDL Port Declaration warning at VGA.v(37): port declaration for "digit" declares unpacked dimensions but the data type declaration does not File: C:/Users/koots/Downloads/VGA/VGA.v Line: 37
-Info (10499): HDL info at VGA.v(26): see declaration for object "digit" File: C:/Users/koots/Downloads/VGA/VGA.v Line: 26
-Warning (10227): Verilog HDL Port Declaration warning at VGA.v(37): data type declaration for "digit" declares packed dimensions but the port declaration declaration does not File: C:/Users/koots/Downloads/VGA/VGA.v Line: 37
-Critical Warning (10226): Verilog HDL Port Declaration warning at VGA.v(38): port declaration for "number" declares unpacked dimensions but the data type declaration does not File: C:/Users/koots/Downloads/VGA/VGA.v Line: 38
-Info (10499): HDL info at VGA.v(27): see declaration for object "number" File: C:/Users/koots/Downloads/VGA/VGA.v Line: 27
-Warning (10227): Verilog HDL Port Declaration warning at VGA.v(38): data type declaration for "number" declares packed dimensions but the port declaration declaration does not File: C:/Users/koots/Downloads/VGA/VGA.v Line: 38
+    Info (12023): Found entity 1: VGA File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 8
+Critical Warning (10226): Verilog HDL Port Declaration warning at VGA.v(37): port declaration for "digit" declares unpacked dimensions but the data type declaration does not File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 37
+Info (10499): HDL info at VGA.v(26): see declaration for object "digit" File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 26
+Warning (10227): Verilog HDL Port Declaration warning at VGA.v(37): data type declaration for "digit" declares packed dimensions but the port declaration declaration does not File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 37
+Critical Warning (10226): Verilog HDL Port Declaration warning at VGA.v(38): port declaration for "number" declares unpacked dimensions but the data type declaration does not File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 38
+Info (10499): HDL info at VGA.v(27): see declaration for object "number" File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 27
+Warning (10227): Verilog HDL Port Declaration warning at VGA.v(38): data type declaration for "number" declares packed dimensions but the port declaration declaration does not File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 38
 Info (12127): Elaborating entity "VGA" for the top level hierarchy
-Warning (10240): Verilog HDL Always Construct warning at VGA.v(59): inferring latch(es) for variable "beep", which holds its previous value in one or more paths through the always construct File: C:/Users/koots/Downloads/VGA/VGA.v Line: 59
-Info (10041): Inferred latch for "beep" at VGA.v(59) File: C:/Users/koots/Downloads/VGA/VGA.v Line: 59
-Info (144001): Generated suppressed messages file C:/Users/koots/Downloads/VGA/VGA.map.smsg
+Warning (10240): Verilog HDL Always Construct warning at VGA.v(59): inferring latch(es) for variable "beep", which holds its previous value in one or more paths through the always construct File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 59
+Info (10041): Inferred latch for "beep" at VGA.v(59) File: C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v Line: 59
+Info (144001): Generated suppressed messages file C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 157 device resources after synthesis - the final resource count might be different
@@ -331,15 +331,15 @@ Info (21057): Implemented 157 device resources after synthesis - the final resou
     Info (21059): Implemented 22 output pins
     Info (21061): Implemented 130 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 4737 megabytes
-    Info: Processing ended: Tue Jul 28 13:21:24 2020
-    Info: Elapsed time: 00:00:20
+    Info: Peak virtual memory: 4739 megabytes
+    Info: Processing ended: Tue Jul 28 21:24:10 2020
+    Info: Elapsed time: 00:00:30
     Info: Total CPU time (on all processors): 00:00:45
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/koots/Downloads/VGA/VGA.map.smsg.
+The suppressed messages can be found in C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.map.smsg.
 
 

@@ -1,6 +1,6 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/koots/Downloads/VGA/VGA.v
-source_file = 1, C:/Users/koots/Downloads/VGA/db/VGA.cbx.xml
+source_file = 1, C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/VGA.v
+source_file = 1, C:/Users/koots/Downloads/CET466-Digital-Logic/Examples/TestModule/db/VGA.cbx.xml
 design_name = VGA
 instance = comp, \disp_RGB[0]~output , disp_RGB[0]~output, VGA, 1
 instance = comp, \disp_RGB[1]~output , disp_RGB[1]~output, VGA, 1
