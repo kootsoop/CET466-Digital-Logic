@@ -6,6 +6,10 @@ The course will be using the RZ-EasyFPGA board which is a nice, inexpensive boar
 
 ![Picture of the board.](./RZ-EasyFPGA.jpg)
 
+This image shows some of the features of the board.
+
+![Features on the board.](./aletra_fpga_ep4ce6e22c8n.jpg)
+
 The pinouts are shown below.
 
 ![Pinouts of the board.](./fpga_pin_map.jpg)
@@ -28,6 +32,8 @@ There are some other GitHub repositories around that reference the RZ EasyFPGA b
 [To download Quartus Prime v20.1, go to the Intel site and download it. Be warned: it's LARGE.](https://fpgasoftware.intel.com/20.1/?edition=lite)
 
 To clone this repository on Windows, you need to have [long file names enabled](https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows) by running `git config --system core.longpaths true`. Otherwise `git` will give an error about `Clone succeeded but checkout failed.`
+
+Some more information, including the marked up image showing the board features above is available from [here](http://piswords.com/ep4ce6e22c8n.html).
 
 ## Some Videos
 
