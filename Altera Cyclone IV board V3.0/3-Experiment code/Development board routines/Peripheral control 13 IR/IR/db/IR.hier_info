@@ -121,5 +121,17 @@ rst_n => led_cs[1]~reg0.ENA
 rst_n => led_cs[2]~reg0.ENA
 rst_n => led_cs[3]~reg0.ENA
 IR => irda_reg0.DATAA
+led_cs[0] <= led_cs[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_cs[1] <= led_cs[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_cs[2] <= led_cs[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_cs[3] <= led_cs[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led_db[0] <= led_db.DB_MAX_OUTPUT_PORT_TYPE
+led_db[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+led_db[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+led_db[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+led_db[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+led_db[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+led_db[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+led_db[7] <= <VCC>
 
 

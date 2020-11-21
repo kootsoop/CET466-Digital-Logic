@@ -1,5 +1,5 @@
 Flow report for InferredRegistersExample
-Thu Nov 05 11:20:02 2020
+Sat Nov 07 08:36:21 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,22 +41,22 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Nov 05 11:20:02 2020       ;
+; Flow Status                        ; Successful - Sat Nov 07 08:36:21 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; InferredRegistersExample                    ;
 ; Top-level Entity Name              ; InferredRegistersExample                    ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE6E22C8                                 ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 0 / 6,272 ( 0 % )                           ;
-;     Total combinational functions  ; 0 / 6,272 ( 0 % )                           ;
-;     Dedicated logic registers      ; 0 / 6,272 ( 0 % )                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 3 / 92 ( 3 % )                              ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 276,480 ( 0 % )                         ;
-; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                              ;
-; Total PLLs                         ; 0 / 2 ( 0 % )                               ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+--------------------------+
 ; Option            ; Setting                  ;
 +-------------------+--------------------------+
-; Start date & time ; 11/05/2020 11:19:25      ;
+; Start date & time ; 11/07/2020 08:36:00      ;
 ; Main task         ; Compilation              ;
 ; Revision Name     ; InferredRegistersExample ;
 +-------------------+--------------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 241955396475556.160459316501792        ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 241955396475556.160475616009232        ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -94,41 +94,29 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:20     ; 1.0                     ; 4788 MB             ; 00:00:42                           ;
-; Fitter               ; 00:00:05     ; 1.0                     ; 5222 MB             ; 00:00:06                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 4687 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 4737 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4642 MB             ; 00:00:01                           ;
-; Total                ; 00:00:31     ; --                      ; --                  ; 00:00:53                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:24     ; 1.0                     ; 4782 MB             ; 00:00:44                           ;
+; Total                  ; 00:00:24     ; --                      ; --                  ; 00:00:44                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-OMHF6B3  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-OMHF6B3  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-OMHF6B3  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-OMHF6B3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-OMHF6B3  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; DESKTOP-OMHF6B3  ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off InferredRegistersExample -c InferredRegistersExample
-quartus_fit --read_settings_files=off --write_settings_files=off InferredRegistersExample -c InferredRegistersExample
-quartus_asm --read_settings_files=off --write_settings_files=off InferredRegistersExample -c InferredRegistersExample
-quartus_sta InferredRegistersExample -c InferredRegistersExample
-quartus_eda --read_settings_files=off --write_settings_files=off InferredRegistersExample -c InferredRegistersExample
+quartus_map --read_settings_files=on --write_settings_files=off InferredRegistersExample -c InferredRegistersExample --analysis_and_elaboration
 
 
 
