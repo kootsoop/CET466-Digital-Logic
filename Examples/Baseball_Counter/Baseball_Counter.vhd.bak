@@ -1,0 +1,17 @@
+library ieee;
+use ieee.numeric_std.all;
+use ieee.std_logic_1164.all;
+
+entity Baseball_Counter is
+				port (
+						signal CLOCK : in std_logic;  -- one clock pulse, fed from the pushbutton (PIN H2)
+                  signal OUTPUT : out std_logic_vector(6 downto 0) -- seven output LEDs to represent bits
+						-- Output 0 = PIN J1
+						-- Output 1 = PIN J2
+						-- Output 2 = PIN J3
+						-- Output 3 = PIN H1
+						-- skip Pin F2
+						-- Output 4 = PIN E1
+						-- Output 5 = PIN C1
+						-- Output 6 = PIN C2				
+						);

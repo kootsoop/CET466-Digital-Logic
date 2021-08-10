@@ -1,0 +1,125 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Ball'
+Slack : -2.321
+TNS   : -44.022
+
+Type  : Slow 1200mV 85C Model Setup 'Strike'
+Slack : -2.248
+TNS   : -43.499
+
+Type  : Slow 1200mV 85C Model Hold 'Ball'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Strike'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'Ball'
+Slack : -3.464
+TNS   : -108.362
+
+Type  : Slow 1200mV 85C Model Recovery 'Strike'
+Slack : -3.225
+TNS   : -98.943
+
+Type  : Slow 1200mV 85C Model Removal 'Strike'
+Slack : 2.343
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'Ball'
+Slack : 2.594
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Ball'
+Slack : -3.000
+TNS   : -35.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Strike'
+Slack : -3.000
+TNS   : -35.000
+
+Type  : Slow 1200mV 0C Model Setup 'Ball'
+Slack : -1.904
+TNS   : -35.111
+
+Type  : Slow 1200mV 0C Model Setup 'Strike'
+Slack : -1.847
+TNS   : -34.784
+
+Type  : Slow 1200mV 0C Model Hold 'Ball'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Strike'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'Ball'
+Slack : -3.012
+TNS   : -94.333
+
+Type  : Slow 1200mV 0C Model Recovery 'Strike'
+Slack : -2.782
+TNS   : -85.360
+
+Type  : Slow 1200mV 0C Model Removal 'Strike'
+Slack : 2.140
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'Ball'
+Slack : 2.391
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Ball'
+Slack : -3.000
+TNS   : -35.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Strike'
+Slack : -3.000
+TNS   : -35.000
+
+Type  : Fast 1200mV 0C Model Setup 'Ball'
+Slack : -0.908
+TNS   : -11.957
+
+Type  : Fast 1200mV 0C Model Setup 'Strike'
+Slack : -0.849
+TNS   : -11.264
+
+Type  : Fast 1200mV 0C Model Hold 'Ball'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Strike'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'Ball'
+Slack : -1.490
+TNS   : -46.834
+
+Type  : Fast 1200mV 0C Model Recovery 'Strike'
+Slack : -1.352
+TNS   : -40.715
+
+Type  : Fast 1200mV 0C Model Removal 'Strike'
+Slack : 1.267
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'Ball'
+Slack : 1.413
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Ball'
+Slack : -3.000
+TNS   : -40.678
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Strike'
+Slack : -3.000
+TNS   : -40.647
+
+------------------------------------------------------------

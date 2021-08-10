@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Dec 11 10:50:31 2018
+Quartus II 64-Bit Version : 13.1.4 Build 182 03/12/2014 SJ Web Edition
+Revision Name : Baseball_Counter
+Top-level Entity Name : Baseball_Counter
+Family : Cyclone III
+Total logic elements : 95
+    Total combinational functions : 95
+    Dedicated logic registers : 64
+Total registers : 64
+Total pins : 8
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,1465 @@
+# Reading C:/ProgramData/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Baseball_Counter_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\ProgramData\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\ProgramData\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/Baseball_Counter.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Baseball_Counter
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter
+# 
+# vcom -93 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(75): (vcom-1136) Unknown identifier "s".
+# 
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(75): Type error resolving infix expression "<" as type std.STANDARD.BOOLEAN.
+# ** Warning: [4] E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(77): near "10": expecting ';'
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(79): Illegal target for signal assignment.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(79): (vcom-1136) Unknown identifier "s".
+# 
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(79): (vcom-1136) Unknown identifier "s".
+# 
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(85): VHDL Compiler exiting
+# ** Error: C:/ProgramData/altera/13.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./Baseball_Counter_run_msim_rtl_vhdl.do line 10
+# C:/ProgramData/altera/13.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}"
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(77): (vcom-1136) Unknown identifier "s".
+# 
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(77): Type error resolving infix expression "<" as type std.STANDARD.BOOLEAN.
+# ** Warning: [4] E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(79): near "10": expecting ';'
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): Illegal target for signal assignment.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): (vcom-1136) Unknown identifier "s".
+# 
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): (vcom-1136) Unknown identifier "s".
+# 
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(87): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(77): (vcom-1136) Unknown identifier "s".
+# 
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(77): Type error resolving infix expression "<" as type std.STANDARD.BOOLEAN.
+# ** Warning: [4] E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(79): near "10": expecting ';'
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): Illegal target for signal assignment.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): (vcom-1136) Unknown identifier "s".
+# 
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): (vcom-1136) Unknown identifier "s".
+# 
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(87): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Warning: [4] E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): near "10": expecting ';'
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(83): Target of signal assignment is not a signal.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(89): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Warning: [4] E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): near "10": expecting ';'
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(83): Target of signal assignment is not a signal.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(89): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(83): Target of signal assignment is not a signal.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(89): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Warning: [4] E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): near "10": expecting ';'
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(89): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(81): near "10": expecting ';'
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(89): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim +altera -do Baseball_Counter_run_msim_rtl_vhdl.do -l msim_transcript -gui work.baseball_counter_vhd_tst
+# vsim +altera -do Baseball_Counter_run_msim_rtl_vhdl.do -l msim_transcript -gui work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+# do Baseball_Counter_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/Baseball_Counter.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Baseball_Counter
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter
+# 
+# vcom -93 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  Baseball_Counter_TEST
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Baseball_Counter_TEST 
+# ** Error: (vsim-3170) Could not find 'E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/rtl_work.Baseball_Counter_TEST'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./Baseball_Counter_run_msim_rtl_vhdl.do PAUSED at line 12
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+# ** Error: THIS TEST WORKS!!!!
+#    Time: 3 us  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+# ** Error: THIS TEST WORKS!!!!
+#    Time: 4 us  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(87): near "wait": expecting GENERATE or THEN
+# ** Warning: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(88): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 3 is not equal to right length 2).
+# 
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(90): near "if": expecting LOOP
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(94): near "loop": expecting PROCESS
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(98): near "PROCESS": expecting ';'
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Warning: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(88): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 3 is not equal to right length 2).
+# 
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+# ** Error: THIS TEST WORKS!!!!
+#    Time: 5010 ns  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+run
+run
+# ** Error: THIS TEST WORKS!!!!
+#    Time: 10020 ns  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Warning: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(92): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 3 is not equal to right length 2).
+# 
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+# ** Error: THIS TEST WORKS!!!!
+#    Time: 5020 ns  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Warning: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(92): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 3 is not equal to right length 2).
+# 
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+# ** Error: THIS TEST WORKS!!!!
+#    Time: 5020 ns  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+run
+run
+# ** Error: THIS TEST WORKS!!!!
+#    Time: 10030 ns  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Warning: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(91): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 3 is not equal to right length 2).
+# 
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+# ** Error: Ball Counter did not reset when Strike Counter rolled over!
+#    Time: 6 us  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+# ** Error: Strike Counter  did NOT roll over!
+#    Time: 6 us  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(180): near "500": expecting ';'
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(182): near "500": expecting ';'
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(202): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+# Load canceled
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+# ** Note:  Strike Count rollover test finished
+#    Time: 6030 ns  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(134): near "Clear": expecting ';'
+# ** Error: E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht(192): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {E:/CCSU/Logic Design CET-466/Project 6 - Baseball Counter VHDL/simulation/modelsim/Baseball_Counter.vht}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Baseball_Counter_vhd_tst
+# -- Compiling architecture Baseball_Counter_arch of Baseball_Counter_vhd_tst
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+vsim -voptargs=+acc work.baseball_counter_vhd_tst
+# vsim -voptargs=+acc work.baseball_counter_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.baseball_counter_vhd_tst(baseball_counter_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.baseball_counter(baseball_counter_arch)
+add wave -position insertpoint sim:/baseball_counter_vhd_tst/*
+run
+run
+run
+run
+run
+run
+run
+# ** Note:  Strike Count rollover test finished
+#    Time: 6030 ns  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note:  Ball Count rollover test finished
+#    Time: 17070 ns  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+run
+run
+run
+run
+# ** Note: Clear button test finished
+#    Time: 24080 ns  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: Ball_count reset on Strike_count rollover test finished
+#    Time: 35080 ns  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: Ball_count reset on Strike_count rollover test finished
+#    Time: 49080 ns  Iteration: 0  Instance: /baseball_counter_vhd_tst
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

@@ -1,0 +1,102 @@
+-- Copyright (C) 1991-2014 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- ***************************************************************************
+-- This file contains a Vhdl test bench template that is freely editable to   
+-- suit user's needs .Comments are provided in each section to help the user  
+-- fill out necessary details.                                                
+-- ***************************************************************************
+-- Generated on "11/17/2018 15:41:32"
+                                                            
+-- Vhdl Test Bench template for design  :  Baseball_Counter
+-- 
+-- Simulation tool : ModelSim-Altera (VHDL)
+-- 
+
+LIBRARY ieee;                                               
+USE ieee.std_logic_1164.all;                                
+
+ENTITY Baseball_Counter_vhd_tst IS
+END Baseball_Counter_vhd_tst;
+ARCHITECTURE Baseball_Counter_arch OF Baseball_Counter_vhd_tst IS
+-- constants                                                 
+-- signals 
+                                                
+SIGNAL Ball : STD_LOGIC := '1'; -- initialize HIGH
+SIGNAL Ball_Count : STD_LOGIC_VECTOR(2 DOWNTO 0);
+SIGNAL Clear : STD_LOGIC := '1';
+SIGNAL Strike : STD_LOGIC := '1';
+SIGNAL Strike_Count : STD_LOGIC_VECTOR(1 DOWNTO 0);
+
+COMPONENT Baseball_Counter
+	PORT (
+	Ball : IN STD_LOGIC;
+	Ball_Count : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
+	Clear : IN STD_LOGIC;
+	Strike : IN STD_LOGIC;
+	Strike_Count : OUT STD_LOGIC_VECTOR(1 DOWNTO 0)
+	);
+END COMPONENT;
+
+BEGIN
+	i1 : Baseball_Counter
+	PORT MAP (
+-- list connections between master ports and signals
+	Ball => Ball,
+	Ball_Count => Ball_Count,
+	Clear => Clear,
+	Strike => Strike,
+	Strike_Count => Strike_Count
+	);
+init : PROCESS                                               
+-- variable declarations 
+
+                                  
+BEGIN                                                        
+        -- code that executes only once                      
+WAIT;                                                       
+END PROCESS init;                                           
+always : PROCESS  --(Strike, Ball, Clear, strike_count, ball_count)         -- *WRITE OUR TESTING CODE HERE*                                   
+-- optional sensitivity list                                  
+-- (        )   
+
+-- variable declarations
+variable s : integer := 0;  
+                                    
+BEGIN                                                         
+        -- code executes for every event on sensitivity list
+        Ball <= not Ball;
+        wait for 1000 ns;
+        Ball <= not Ball;
+        
+			while (s < 10) loop
+				Strike <= not Strike;
+				wait for 1000 ns;
+				Strike <= not Strike;
+				
+
+				  if (Strike = '0') then
+				    if strike_count = "00" then
+					   assert (ball_count = "00") report "Ball Counter did not reset when Strike Counter rolled over!" severity error;
+				    end if;
+			   end if;
+			
+				
+				s := s + 1;
+			end loop;
+		
+			
+WAIT;                                                        
+END PROCESS always;                     
+END Baseball_Counter_arch;
