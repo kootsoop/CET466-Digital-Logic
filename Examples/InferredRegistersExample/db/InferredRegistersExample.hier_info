@@ -1,0 +1,6 @@
+|InferredRegistersExample
+clock => ~NO_FANOUT~
+input => ~NO_FANOUT~
+output << <GND>
+
+

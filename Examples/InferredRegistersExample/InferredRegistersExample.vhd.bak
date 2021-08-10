@@ -1,0 +1,10 @@
+LIBRARY ieee;
+
+USE ieee.std_logic_1164.all;
+
+entity InferredRegistersExample is
+	port(
+		clock : in std_logic;
+		output : out std_logic
+	);
+end entity InferredRegistersExample;
