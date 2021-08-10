@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -5.795
+TNS   : -422.304
+
+Type  : Slow 1200mV 85C Model Setup 'clockdivider:clkdiv|newclk'
+Slack : -5.761
+TNS   : -401.519
+
+Type  : Slow 1200mV 85C Model Setup 'debounce_switch:deboubce_strikes|state'
+Slack : -3.273
+TNS   : -67.687
+
+Type  : Slow 1200mV 85C Model Setup 'debounce_switch:deboubce_balls|state'
+Slack : -3.214
+TNS   : -65.932
+
+Type  : Slow 1200mV 85C Model Hold 'clockdivider:clkdiv|newclk'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'debounce_switch:deboubce_balls|state'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'debounce_switch:deboubce_strikes|state'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'debounce_switch:deboubce_strikes|state'
+Slack : -1.044
+TNS   : -22.830
+
+Type  : Slow 1200mV 85C Model Recovery 'debounce_switch:deboubce_balls|state'
+Slack : -0.772
+TNS   : -21.576
+
+Type  : Slow 1200mV 85C Model Removal 'debounce_switch:deboubce_balls|state'
+Slack : 0.713
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'debounce_switch:deboubce_strikes|state'
+Slack : 1.086
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -142.778
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clockdivider:clkdiv|newclk'
+Slack : -1.487
+TNS   : -120.447
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce_switch:deboubce_balls|state'
+Slack : -1.487
+TNS   : -47.584
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce_switch:deboubce_strikes|state'
+Slack : -1.487
+TNS   : -47.584
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -5.414
+TNS   : -388.838
+
+Type  : Slow 1200mV 0C Model Setup 'clockdivider:clkdiv|newclk'
+Slack : -5.274
+TNS   : -368.402
+
+Type  : Slow 1200mV 0C Model Setup 'debounce_switch:deboubce_strikes|state'
+Slack : -2.826
+TNS   : -58.160
+
+Type  : Slow 1200mV 0C Model Setup 'debounce_switch:deboubce_balls|state'
+Slack : -2.762
+TNS   : -56.192
+
+Type  : Slow 1200mV 0C Model Hold 'clockdivider:clkdiv|newclk'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'debounce_switch:deboubce_strikes|state'
+Slack : 0.416
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'debounce_switch:deboubce_balls|state'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'debounce_switch:deboubce_strikes|state'
+Slack : -0.875
+TNS   : -17.758
+
+Type  : Slow 1200mV 0C Model Recovery 'debounce_switch:deboubce_balls|state'
+Slack : -0.619
+TNS   : -16.060
+
+Type  : Slow 1200mV 0C Model Removal 'debounce_switch:deboubce_balls|state'
+Slack : 0.615
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'debounce_switch:deboubce_strikes|state'
+Slack : 0.922
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -142.778
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clockdivider:clkdiv|newclk'
+Slack : -1.487
+TNS   : -120.447
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce_switch:deboubce_balls|state'
+Slack : -1.487
+TNS   : -47.584
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce_switch:deboubce_strikes|state'
+Slack : -1.487
+TNS   : -47.584
+
+Type  : Fast 1200mV 0C Model Setup 'clockdivider:clkdiv|newclk'
+Slack : -1.849
+TNS   : -123.586
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -1.842
+TNS   : -126.101
+
+Type  : Fast 1200mV 0C Model Setup 'debounce_switch:deboubce_strikes|state'
+Slack : -0.896
+TNS   : -12.247
+
+Type  : Fast 1200mV 0C Model Setup 'debounce_switch:deboubce_balls|state'
+Slack : -0.881
+TNS   : -11.797
+
+Type  : Fast 1200mV 0C Model Hold 'clockdivider:clkdiv|newclk'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debounce_switch:deboubce_strikes|state'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debounce_switch:deboubce_balls|state'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'debounce_switch:deboubce_strikes|state'
+Slack : -0.284
+TNS   : -4.626
+
+Type  : Fast 1200mV 0C Model Recovery 'debounce_switch:deboubce_balls|state'
+Slack : -0.173
+TNS   : -4.118
+
+Type  : Fast 1200mV 0C Model Removal 'debounce_switch:deboubce_balls|state'
+Slack : 0.665
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'debounce_switch:deboubce_strikes|state'
+Slack : 0.772
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -104.252
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clockdivider:clkdiv|newclk'
+Slack : -1.000
+TNS   : -81.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce_switch:deboubce_balls|state'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce_switch:deboubce_strikes|state'
+Slack : -1.000
+TNS   : -32.000
+
+------------------------------------------------------------
